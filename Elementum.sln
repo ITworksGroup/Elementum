@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementumServer", "ElementumServer\ElementumServer.csproj", "{0D8D4A8D-0B4A-4D00-A507-4FCE0F7F2EDE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9A744EA-D3AE-4AD7-8D32-C82E937BF7E1} = {D9A744EA-D3AE-4AD7-8D32-C82E937BF7E1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementumCommon", "ElementumCommon\ElementumCommon.csproj", "{D9A744EA-D3AE-4AD7-8D32-C82E937BF7E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D8D4A8D-0B4A-4D00-A507-4FCE0F7F2EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8D4A8D-0B4A-4D00-A507-4FCE0F7F2EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8D4A8D-0B4A-4D00-A507-4FCE0F7F2EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D8D4A8D-0B4A-4D00-A507-4FCE0F7F2EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A744EA-D3AE-4AD7-8D32-C82E937BF7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A744EA-D3AE-4AD7-8D32-C82E937BF7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A744EA-D3AE-4AD7-8D32-C82E937BF7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A744EA-D3AE-4AD7-8D32-C82E937BF7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B0AB452-551D-4E9A-A965-780F4789617B}
+	EndGlobalSection
+EndGlobal
